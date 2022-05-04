@@ -3,6 +3,7 @@ const morgan = require("morgan");
 const dotenv = require("dotenv");
 dotenv.config();
 const path = require("path");
+const globalRouter = require("./routers/globalRouter");
 
 const PORT = process.env.PORT;
 const app = express();
