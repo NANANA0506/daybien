@@ -8,8 +8,12 @@
     align-items: center;
     justify-content: space-around
     
-};
+}
 
+.header_box2 {
+    width: 60px;
+    height: 74px;
+}
 
 .header_box3 {
     width: 35%;
@@ -19,4 +23,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+.header_box1 {
+    width: 35%;
+    height: 90px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
 }
